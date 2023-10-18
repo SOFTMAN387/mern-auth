@@ -7,7 +7,7 @@ export default function Header() {
     <div className='bg-teal-800 text-white'>
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <Link to='/'>
-          <h1 className='font-bold sm:text-sm md:text-xl'>SoftMan MERN-AUTH</h1>
+          <h1 className='font-bold md:text-xl sm:text-xs'>SoftMan Auth</h1>
         </Link>
         <ul className='flex gap-4'>
           <Link to='/'>
