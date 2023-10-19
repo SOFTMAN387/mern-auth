@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://er-manishgupta-mern-auth.onrender.com',
+        target: 'http://localhost:8000',
         secure: false,
       },
     },
